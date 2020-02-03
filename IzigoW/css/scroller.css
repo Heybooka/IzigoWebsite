@@ -1,0 +1,20 @@
+/***** UTILITIES *****/
+.scroller {
+    overflow: auto;
+  }
+
+  .scroller::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+
+  .scroller::-webkit-scrollbar-track-piece {
+    background-color: #fff;
+  }
+
+  .scroller::-webkit-scrollbar-thumb:horizontal,
+  .scroller::-webkit-scrollbar-thumb:vertical {
+    border-radius: 0px;
+    background-color: #ef4349;
+  }
+  
